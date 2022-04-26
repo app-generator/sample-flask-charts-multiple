@@ -1,16 +1,21 @@
-from flask import Flask, render_template
+from flask import Flask
 
 from app.models      import db, MonthlyCustomers, MonthlySales, ProductSales
-from app.api         import blueprint
+from app.api         import api_blueprint
+from app.routes      import frontend_blueprint
+
 from app.data_loader import data_importer
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI']        = 'sqlite:///db.sqlite'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-@app.route("/")
-def index():
-    return render_template("index.html") 
+
+
+app.register_blueprint(frontend_blueprint)
+
+app.register_blueprint(api_blueprint, url_prefix="/api")
+
 
 @app.cli.command("load-data")
 def load_data():
@@ -30,5 +35,4 @@ def initialize_database():
     db.create_all() 
 
 db.init_app(app)
-    
-app.register_blueprint(blueprint, url_prefix="/api")
+

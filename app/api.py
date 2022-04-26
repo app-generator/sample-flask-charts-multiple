@@ -7,8 +7,8 @@ from flask import Blueprint, request
 from flask_restx import Api, Resource, fields
 from app.models import  db, MonthlyCustomers, MonthlySales, ProductSales
 
-blueprint = Blueprint('api', __name__)
-api = Api(blueprint)
+api_blueprint = Blueprint('api', __name__)
+api = Api(api_blueprint)
 
 customer_model = api.model("Monthly Customers", {
     "month_name": fields.String,
