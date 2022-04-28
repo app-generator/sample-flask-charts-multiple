@@ -19,7 +19,7 @@
         <div class="m-2 p-2 bg-light text-center">
 
             <h1>
-                Flask/RestX and ChartJs
+                Flask/RestX with chart libraries
             </h1>
             <p>
               This is an example of how to implement charts with various javascript libraries using Flask/RestX as backend server, 
@@ -27,7 +27,7 @@
               
             </p>
             <br />
-            <a target="_blank" href="https://github.com/app-generator/blog-sample-flask-charts">Sources</a> 
+            <a target="_blank" href="https://github.com/app-generator/blog-sample-flask-charts2">Sources</a> 
             &bullet;
             <a target="_blank" href="https://appseed.us/support/">Support</a> 
             &bullet;
@@ -40,9 +40,9 @@
             <div class="card">
               <img class="card-img-top " src="{{ url_for('static', filename='img/chartjs-logo.svg') }}" alt="Card image cap" height="300" width="300">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Chart.js</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="{{ url_for('routes.charjs') }}" class="btn btn-primary">Chart.js Demo</a>
               </div>
             </div>
          </div>
@@ -51,9 +51,9 @@
             <div class="card">
               <img class="card-img-top" src="{{ url_for('static', filename='img/chartist-logo.png') }}" alt="Card image cap" height="300" width="300">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Chartist</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="{{ url_for('routes.chartist') }}" class="btn btn-primary">Chartist Demo</a>
               </div>
             </div>
           </div>
@@ -62,9 +62,9 @@
             <div class="card">
               <img class="card-img-top" src="{{ url_for('static', filename='img/amcharts-logo.png') }}" alt="Card image cap" height="300" width="300">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">amCharts</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="{{ url_for('routes.amcharts') }}" class="btn btn-primary">amCharts Demo</a>
               </div>
             </div>
           </div>
@@ -73,20 +73,20 @@
             <div class="card">
               <img class="card-img-top" src="{{ url_for('static', filename='img/googlecharts-logo.jpeg') }}" alt="Card image cap" height="300" width="300">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Google Charts</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="{{ url_for('routes.googlecharts') }}" class="btn btn-primary">Google Charts Demo</a>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 mb-2">
             <div class="card">
-              <img class="card-img-top" src="{{ url_for('static', filename='img/apexcharts-logo.svg') }}" alt="Card image cap" height="300" width="300">
+              <img class="card-img-top" src="{{ url_for('static', filename='img/apexcharts-logo.png') }}" alt="Card image cap" height="300" width="300">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Apex Charts</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="{{ url_for('routes.apexcharts') }}" class="btn btn-primary">Apex Charts Demo</a>
               </div>
             </div>
           </div>
@@ -94,8 +94,7 @@
 
     <!--  Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+  
     
   </body>
 </html>
