@@ -26,7 +26,7 @@ fetch("/api/MonthlyCustomers", {
                             document.getElementById('linechart'),
                             config
                         );
-                        console.log(config)
+
                     });
 
 fetch("/api/MonthlySales", {
@@ -55,7 +55,7 @@ fetch("/api/MonthlySales", {
                             document.getElementById('barchart'),
                             config
                         );
-                        console.log(config)
+
                     });
 
 
@@ -94,5 +94,5 @@ fetch("/api/ProductSales", {
                                 document.getElementById('piechart'),
                                 config
                             );
-                            console.log(config)
+
                         });  
