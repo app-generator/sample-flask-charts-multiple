@@ -17,11 +17,11 @@ Frontend uses `Bootstrap5` for styling and the sample dataset is loaded via a cu
 - `API`: Flask-RestX
 - `DB Tools`: Flask-SqlAlchemy, SQLite
 - `Chart Libraries`: 
-  - `Charts.js` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/charjs)
-  - `Chartist` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/chartist)
-  - `amCharts` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/amcharts)
-  - `Google Charts` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/googlecharts)
-  - `Apex Charts` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/apexcharts)
+  - 👉 [Demo](https://sample-flask-charts-multiple.appseed-srv1.com/charjs) `Charts.js`
+  - 👉 [Demo](https://sample-flask-charts-multiple.appseed-srv1.com/chartist) `Chartist`
+  - 👉 [Demo](https://sample-flask-charts-multiple.appseed-srv1.com/amcharts) `amCharts`
+  - 👉 [Demo](https://sample-flask-charts-multiple.appseed-srv1.com/googlecharts) `Google Charts`
+  - 👉 [Demo](https://sample-flask-charts-multiple.appseed-srv1.com/apexcharts) `Apex Charts`
 
 <br />
 
