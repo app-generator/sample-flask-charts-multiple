@@ -25,7 +25,8 @@ Frontend uses `Bootstrap5` for styling and the sample dataset is loaded via a cu
 
 <br />
 
-![Flask Charts via Flask-RestX and Charts.js - provided by AppSeed.us](https://user-images.githubusercontent.com/51070104/164218594-2a0a6a4d-618f-4fb8-90ee-7d4d41088466.jpg)
+![Flask Charts: amCharts, Google Charts, Apex - Free sample by AppSeed.](https://user-images.githubusercontent.com/51070104/166502667-5a91b6a9-f73b-4d73-be4e-85b8462265ee.gif)
+
 
 ## ✨ How to use it
 
