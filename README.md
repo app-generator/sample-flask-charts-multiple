@@ -1,50 +1,105 @@
-# sample-flask-charts-multiple
+# Flask Charts: amCharts, Google Charts, Apex
 
-Sample project crafted with Flask, Flask-RestX, ChartJS, Chartists, amCharts, Google Charts and Apex Charts to showcase how to plot different charts Pie, Line and Bar Charts using various charting libraries available. Frontend uses Bootstrap5 for styling. The dataset is loaded via a custom Flask CLI.
+Sample project crafted with `Flask`, `Flask-RestX` and multiple Charts Libraries to showcase how to plot different charts **Pie, Line and Bar Charts**. 
+Frontend uses `Bootstrap5` for styling and the sample dataset is loaded via a custom **Flask CLI** and the project homepage showcases three charts type: `line`, `bar` and `pie`. 
 
+<br />
 
+- 👉 [Multiple Charts via Flask-RestX](https://sample-flask-charts-multiple.appseed-srv1.com/) - LIVE Demo
+- 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
+
+<br />
+
+> Features:
+
+- `Up-to-date dependencies`
+- `Stack`: Flask
+- `API`: Flask-RestX
+- `DB Tools`: Flask-SqlAlchemy, SQLite
+- `Chart Libraries`: 
+  - `Charts.js` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/charjs)
+  - `Chartist` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/chartist)
+  - `amCharts` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/amcharts)
+  - `Google Charts` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/googlecharts)
+  - `Apex Charts` - [DEMO](https://sample-flask-charts-multiple.appseed-srv1.com/apexcharts)
+
+<br />
+
+![Flask Charts via Flask-RestX and Charts.js - provided by AppSeed.us](https://user-images.githubusercontent.com/51070104/164218594-2a0a6a4d-618f-4fb8-90ee-7d4d41088466.jpg)
 
 ## ✨ How to use it
 
+> 👉 **Clone Sources** (this repo)
+
 ```bash
-$ # Clone the sources
 $ git clone https://github.com/app-generator/sample-flask-charts-multiple.git
 $ cd sample-flask-charts-multiple
-$
-$ # Virtualenv modules installation (Unix based systems)
+```
+
+<br />
+
+> 👉 **Install Modules** using a Virtual Environment
+
+```bash
 $ virtualenv env
 $ source env/bin/activate
-$
-$ # Virtualenv modules installation (Windows based systems)
-$ # virtualenv env
-$ # .\env\Scripts\activate
-$
-$ # Install requirements
 $ pip3 install -r requirements.txt
+```
+
+Or for **Windows-based Systems**
+
+```bash
+$ virtualenv env
+$ .\env\Scripts\activate
 $
-$ # Set the FLASK_APP environment variable
-$ (Unix/Mac) export FLASK_APP=run.py
-$ (Windows) set FLASK_APP=run.py
-$ (Powershell) $env:FLASK_APP = ".\run.py"
+$ # Install modules - SQLite Database
+$ pip3 install -r requirements.txt
+```
+
+<br />
+
+> 👉 **Set up the environment**
+
+```bash
+$ export FLASK_APP=app.py
+$ export FLASK_ENV=development
+```
+
+Or for **Windows-based Systems**
+
+```bash
+$ # CMD terminal
+$ set FLASK_APP=app.py
+$ set FLASK_ENV=development
 $
-$ # Set up the DEBUG environment
-$ # (Unix/Mac) export FLASK_ENV=development
-$ # (Windows) set FLASK_ENV=development
-$ # (Powershell) $env:FLASK_ENV = "development"
-$
-$ # Run the application
-$ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
-$ # --port=5000    - specify the app port (default 5000)  
-$ flask run --host=0.0.0.0 --port=5000
-$
-$ # Access the app in browser: http://127.0.0.1:5000/
+$ # Powershell
+$ $env:FLASK_APP = ".\run.py"
+$ $env:FLASK_ENV = "development"
+```
+
+<br />
+
+> 👉 **Load Sample Data** from `data` directory
+
+- `monthly_customers.csv`
+- `monthly_sales.csv`
+- `product_sales.csv`
+
+```bash
+$ flask load-data 
+```
+
+<br />
+
+> 👉 **Start the APP**
+
+```bash
+$ flask run 
 ```
 
 <br />
 
 ## ✨ Code-base structure
-
-The project has a super simple structure, represented as bellow:
 
 ```bash
 < PROJECT ROOT >
@@ -81,3 +136,21 @@ The project has a super simple structure, represented as bellow:
    |
    |-- ************************************************************************
 ```
+
+<br />
+
+> The bootstrap flow
+
+- `run.py` 
+  - bundles all resources
+  - serve the `index.html`
+- `api.py` exposes a simple API using the DB data 
+- `templates/index.html`
+  - HOMEpage of the project
+- `js/custom.js`
+  - fetch data exposed by the `API`
+
+<br />
+
+---
+Flask Charts: amCharts, Google Charts, Apex - Free Sample provided by [AppSeed](https://appseed.us)
