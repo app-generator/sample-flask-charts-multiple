@@ -1,4 +1,4 @@
-# Flask Charts: amCharts, Google Charts, Apex
+# Flask Charts: `amCharts`, `G.Charts`, `Apex`
 
 Sample project crafted with `Flask`, `Flask-RestX` and multiple Charts Libraries to showcase how to plot different charts **Pie, Line and Bar Charts**. 
 Frontend uses `Bootstrap5` for styling and the sample dataset is loaded via a custom **Flask CLI** and the project homepage showcases three charts type: `line`, `bar` and `pie`. 
