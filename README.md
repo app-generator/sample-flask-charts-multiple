@@ -62,7 +62,7 @@ $ pip3 install -r requirements.txt
 > 👉 **Set up the environment**
 
 ```bash
-$ export FLASK_APP=app.py
+$ export FLASK_APP=run.py
 $ export FLASK_ENV=development
 ```
 
