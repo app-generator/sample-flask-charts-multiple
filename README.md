@@ -3,20 +3,26 @@
 Sample project crafted with `Flask`, `Flask-RestX` and multiple Charts Libraries to showcase how to plot different charts **Pie, Line and Bar Charts**. 
 Frontend uses `Bootstrap5` for styling and the sample dataset is loaded via a custom **Flask CLI** and the project homepage showcases three charts type: `line`, `bar` and `pie`. 
 
-<br />
-
 - 👉 [Multiple Charts via Flask-RestX](https://sample-flask-charts-multiple.appseed-srv1.com/) - LIVE Demo
 - 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The campaign is active until `30.NOV` and applies to all products and licenses.
+
+[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
+
+<br />
+
 > Features:
 
-- `Up-to-date dependencies`
-- `Stack`: Flask
-- `API`: Flask-RestX
-- `DB Tools`: Flask-SqlAlchemy, SQLite
-- `Chart Libraries`: 
+- ✅ `Up-to-date dependencies`
+- ✅ `Stack`: Flask
+- ✅ `API`: Flask-RestX
+- ✅ `DB Tools`: Flask-SqlAlchemy, SQLite
+- ✅ `Chart Libraries`: 
   - 👉 [Demo](https://sample-flask-charts-multiple.appseed-srv1.com/charjs) `Charts.js`
   - 👉 [Demo](https://sample-flask-charts-multiple.appseed-srv1.com/chartist) `Chartist`
   - 👉 [Demo](https://sample-flask-charts-multiple.appseed-srv1.com/amcharts) `amCharts`
